@@ -45,7 +45,7 @@ window.addEventListener('keydown', (event) => {
       klienttypeSelected.classList.remove('klienttypeSelected');
     });
     seks.classList.add('klienttypeSelected');
-  } else if (event.key == 'Enter') {
+  } else if (event.key == 'Enter' || event.key == Enter) {
     console.log(event.key);
     window.location.href = 'step2.html';
   }
